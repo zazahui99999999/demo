@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="box">我是view标签</view>
+<button>按钮</button>
+<button>123</button>
+<text>类型span标签</text>

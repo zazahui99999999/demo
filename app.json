@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#262626",
+    "navigationBarTitleText": "游乐园",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "iconPath",
+        "selectedIconPath": "selectedIconPath"
+      }
+  ]
+  }
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
