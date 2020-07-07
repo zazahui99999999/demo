@@ -1,5 +1,41 @@
 <!--index.wxml-->
-<view class="box">我是view标签</view>
-<button>按钮</button>
-<button>123</button>
-<text>类型span标签</text>
+<!-- 首页轮播图 -->
+<swiper indicator-dots indicator-active-color="#fff" autoplay>
+	<swiper-item>
+		<image src="../../static/uploads/slide_1.jpg"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../static/uploads/slide_2.jpg"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../static/uploads/slide_3.jpg"></image>
+	</swiper-item>
+</swiper>
+<!-- 乐园活动 -->
+<view class="zooactivity">
+	<view class="title">乐园活动</view>
+	<view class="content">
+		<navigator url="">
+			<image src="../../static/uploads/item_1.png"></image>
+		</navigator>
+		<view class="content-title">
+			疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动
+       <text class="free">免费</text>
+		</view>
+		<view class="content-info">
+			<text>200人已报名</text><text>本周六开始</text>
+		</view>
+	</view>
+	<view class="content">
+		<navigator url="">
+			<image src="../../static/uploads/item_1.png"></image>
+		</navigator>
+		<view class="content-title">
+			疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动
+       <text class="free">免费</text>
+		</view>
+		<view class="content-info">
+			<text>200人已报名</text><text>本周六开始</text>
+		</view>
+	</view>
+</view>
